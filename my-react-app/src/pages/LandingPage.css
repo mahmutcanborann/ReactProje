@@ -1,0 +1,47 @@
+.landing-container {
+  background: linear-gradient(
+    135deg,
+    #2c1f1f,
+    #d17800
+  ); /* arka planı da sıcak tonlarda yapıyoruz */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 40px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  color: #fff;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.button-group {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ff7f00; /* 🔸 Turuncu renk */
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button-group button:hover {
+  background-color: #e76a00; /* 🔸 Daha koyu turuncu (hover efekti) */
+}

@@ -1,0 +1,50 @@
+.offer-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #2c1f1f, #d17800);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.offer-glass {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+  max-width: 600px;
+  color: #fff;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.offer-glass input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+.offer-glass button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #ff7f00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.offer-glass button:hover {
+  background-color: #e76a00;
+}
+
+.offer-glass ul {
+  padding-left: 20px;
+  text-align: left;
+}
